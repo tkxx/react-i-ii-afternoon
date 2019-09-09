@@ -1,0 +1,62 @@
+body {
+  margin: 0;
+  background: #282c34;
+  justify-content: space-around;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  height: 10vh;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: #35a5da;
+}
+
+#home {
+  font-size: 1.1em;
+  margin-left: 60px;
+  font-weight: 700;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  margin-left: 60px;
+  border-color: transparent;
+  border-radius: 5px;
+  margin-bottom: 200px;
+}
+
+.card {
+  display: flex;
+  justify-content: space-around;
+  margin: 100px;
+  align-content: space-between;
+  background-color: #ebebeb;
+  line-height: 1.5;
+}
+
+.emphasis {
+  font-weight: 600;
+}
+
+.name {
+  text-decoration: underline #34a5da;
+}
+
+.number {
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: flex-end;
+}
+
+.handleButtons {
+  color: white;
+  background-color: transparent;
+  border: transparent;
+  font-size: 20px;
+  font-weight: 500;
+}
